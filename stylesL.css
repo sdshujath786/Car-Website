@@ -1,0 +1,36 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 50px;
+}
+li:hover {
+    background-color: rgb(28, 202, 255);
+}
+li:first-child {
+    margin-left: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* FOOTER */
+
+
+
+footer {
+    background: rgba(255, 26, 26, 0.918);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.features {
+    background: white;
+    color: gray;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+.featuresa figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    
+}
+.features figure img {
+    border: 1px solid white;
+    border-radius: 20%;
+    box-shadow: gray 0 0 10px;
+    width: 280px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    background-image: url("images/Museum/22\ \(2\).jpg" );
+    background-size: 100%;
+    background-position: center;
+    height: 830px;
+    padding: 40px;
+    text-align: center;
+    touch-action: cross-slide-x;
+    }
+
+header h1 {
+    text-shadow: blue;
+text-align: left;
+ 
+
+}
+header h2 {
+    text-shadow: blue;
+    text-align: left;
+     
+}

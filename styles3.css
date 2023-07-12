@@ -1,0 +1,30 @@
+body h1 {
+  text-align: center;
+ 
+}
+.features {
+
+  background: white;
+  color: gray;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: red;
+}
+.featuresa figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  text-align: center;
+  
+}
+.features figure img {
+  border: 1px solid white;
+  border-radius: 20%;
+  box-shadow: gray 0 0 10px;
+  width: 280px;
+  text-align: center;
+}
+

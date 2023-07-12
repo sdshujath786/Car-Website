@@ -1,0 +1,21 @@
+.features {
+  background: white;
+  color: gray;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.featuresa figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  
+}
+.features figure img {
+  border: 1px solid white;
+  border-radius: 20%;
+  box-shadow: gray 0 0 10px;
+  width: 280px;
+}
+ 

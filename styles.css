@@ -1,0 +1,155 @@
+body {
+              color: white;
+              font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    background-image: url("images/Museum/2.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 830;
+    padding: 40px;
+    text-align: center;
+    }
+
+
+
+
+header {
+    background-color: black;
+    width: 2000px;
+    height: 500px;
+    text-decoration:  none;
+    text-transform: uppercase;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    
+    }
+    header a {
+        color:white;
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+   
+    nav ul {
+        margin: 0;
+            padding: 0;
+            list-style: none;
+             /* FEATURES */
+        
+    }
+    .features {
+        background: white;
+        color: rgb(228, 0, 0);
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .featuresa figure {
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        width: 200px;
+        
+    }
+    .features figure img {
+        border: 1px solid white;
+        border-radius: 50%;
+        box-shadow: gray 0 0 10px;
+        width: 350px;
+    }
+    
+    header {
+        background-color: rgb(0, 0, 0);
+        background-position: center;
+        height: 830px;
+        padding: 30px;
+        text-align: center;
+        }
+       select {
+            color: rgba(39, 0, 214, 0.931);
+            
+        }
+   
+  
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 50px;
+}
+li:hover {
+    background-color: rgb(28, 202, 255);
+}
+li:first-child {
+    margin-left: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.contant {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(28, 202, 255);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span {
+    background: rgb(28, 202, 255);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span {
+width: 100%;
+
+}
+button:hover {
+    border: none;
+}
+
+ /* FOOTER */
+ footer {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px 20px;
+    text-align: center;
+}
